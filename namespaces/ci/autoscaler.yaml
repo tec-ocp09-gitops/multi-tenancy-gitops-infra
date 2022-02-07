@@ -6,8 +6,8 @@ metadata:
 spec:
   scaleTargetRef:
     kind: IntegrationServer
-    name: auto-scale-demo
+    name: load-balance-demo
     apiVersion: appconnect.ibm.com/v1beta1
   minReplicas: 1
   maxReplicas: 3
-  targetCPUUtilizationPercentage: 80
+  targetCPUUtilizationPercentage: 20
