@@ -15,7 +15,7 @@ spec:
   enableMetrics: true
   license:
     accept: true
-    license: L-KSBM-C37J2R
+    license: L-APEH-C79J9U
     use: AppConnectEnterpriseProduction
   pod:
     containers:
