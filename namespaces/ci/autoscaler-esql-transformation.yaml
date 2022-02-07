@@ -1,0 +1,13 @@
+apiVersion: autoscaling/v1
+kind: HorizontalPodAutoscaler
+metadata:
+  name: autoscaler-esql-transformation
+  namespace: ci
+spec:
+  scaleTargetRef:
+    kind: IntegrationServer
+    name: esql-transformation
+    apiVersion: appconnect.ibm.com/v1beta1
+  minReplicas: 1
+  maxReplicas: 3
+  targetCPUUtilizationPercentage: 20

@@ -1,7 +1,7 @@
 apiVersion: appconnect.ibm.com/v1beta1
 kind: IntegrationServer
 metadata:
-  name: auto-scale-demo
+  name: esql-transformation
   labels: {}
 spec:
   adminServerSecure: false
